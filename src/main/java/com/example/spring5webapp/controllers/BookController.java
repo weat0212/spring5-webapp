@@ -29,7 +29,7 @@ public class BookController {
 
         model.addAttribute("books", bookRepository.findAll());
 
-        return "books/list";
+        return "books";
     }
 
 //    TODO: Fix the path problem
